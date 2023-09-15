@@ -1,0 +1,80 @@
+body{
+    background-color: aqua;
+    margin: 0px;
+}
+.RPS {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: rgb(2, 22, 80);
+    font-style: italic;
+    font-size: 32px;
+    font-weight: 600;
+    color:yellow;
+    padding: 30px;
+}
+.goal {
+font-size: 40px;
+}
+
+.Chose {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    flex-direction: column;
+    margin-bottom: 30px;
+
+}
+h2 {
+    margin-bottom: 0px;
+    font-size: 52px;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.rock {
+    width: 300px;
+    height: 300px;
+    background-image: url(rock.png) ;
+    background-size: 300px 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+.paper {
+    height: 300px;
+    width: 300px;
+    background-image: url(paper.png);
+    background-size: 300px 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+.scissors {
+    height: 300px;
+    width: 300px;
+    background-image: url(scissors.png);
+    background-size: 300px 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+button {
+    margin: 10px;
+    margin-top: 100px;
+}
+#result {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 24px;
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 1024px) {
+}
+
+
