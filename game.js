@@ -1,5 +1,5 @@
 let playerScore = 0
-let computerScore = 0
+let computerScore = 1
 const buttons = document.querySelectorAll('input')
 
 function computerPlay() {
